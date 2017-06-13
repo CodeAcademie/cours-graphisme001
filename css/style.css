@@ -17,7 +17,6 @@ nav {
     height: 5vh;
     width: 100vw;
     background-color: #173943;
-    position: fixed;
 }
 
 button {
@@ -36,7 +35,9 @@ button {
    ====== BASE SECTION =======
    ========================= */
 
+
 .general-basis {
+    
     height: 100vh;
     background-color: whitesmoke;
     display: flex;
@@ -47,6 +48,9 @@ button {
 
 .header {
     background-color: #173943;
+}
+#header-top {
+    height: 95vh;
 }
 .img-section {
     width: 500px;
@@ -99,12 +103,12 @@ h1 {
    ========================= */
 
 .text {
-    width: 80%;
     display: flex;
+    width: 80vw;
 }
 
 .text h3 {
-    font-size: 40px;
+    font-size: 28px;
     color: whitesmoke;
     padding: 0px 0px 0px 0px;
     background-color: #007c8d;
@@ -116,7 +120,7 @@ h1 {
 
 .text p {
     padding: 10px 10px 30px 55px;
-    font-size: 30px;
+    font-size: 28px;
     border-bottom: 1px solid #173943;
     margin-bottom: 25px;
     white-space: pre;
@@ -124,6 +128,7 @@ h1 {
 
 .text img {
     width: 50%;
+    height: 100%;;
 }
 
 
@@ -133,4 +138,8 @@ h1 {
 
 #img-comp {
     width: 60%;
+}
+
+.exemple {
+    display: flex;
 }
