@@ -16,7 +16,7 @@ body {
 nav {
     height: 5vh;
     width: 100vw;
-    background-color: #007c8d;
+    background-color: #173943;
     position: fixed;
 }
 
@@ -26,7 +26,7 @@ button {
     width: 10%;
     font-size: 10px;
     text-transform: uppercase;
-    background-color: #007c8d;
+    background-color: #173943;
     color: whitesmoke;
     cursor: pointer;
 }
@@ -51,6 +51,7 @@ button {
 .img-section {
     width: 500px;
     padding-bottom: 25px;
+    border-radius: 5px;
 }
 
 .title {
@@ -94,7 +95,7 @@ h1 {
 
 
 /* =========================
-   ====== ARTICLE LEFT =======
+   ========= TEXTE =========
    ========================= */
 
 .text {
@@ -116,9 +117,6 @@ h1 {
 .text p {
     padding: 10px 10px 30px 55px;
     font-size: 30px;
-/*
-    text-align: justify;
-*/
     border-bottom: 1px solid #173943;
     margin-bottom: 25px;
     white-space: pre;
@@ -126,7 +124,13 @@ h1 {
 
 .text img {
     width: 50%;
-/*
-    height: inherit;
-*/
+}
+
+
+/* =========================
+   ========= AUTRE =========
+   ========================= */
+
+#img-comp {
+    width: 60%;
 }
