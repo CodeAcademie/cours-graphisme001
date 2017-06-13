@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto";
+    color: #333;
+}
+
+
+/* =========================
+   ====== NAVIGATION =======
+   ========================= */
+
+nav {
+    height: 5vh;
+    width: 100vw;
+    background-color: #007c8d;
+    position: fixed;
+}
+
+button {
+    height: 100%;
+    border: 0;
+    width: 10%;
+    font-size: 10px;
+    text-transform: uppercase;
+    background-color: #007c8d;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+/* =========================
+   ====== BASE SECTION =======
+   ========================= */
+
+.general-basis {
+    height: 100vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #173943;
+}
+.img-section {
+    width: 500px;
+    padding-bottom: 25px;
+}
+
+.title {
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #173943;
+    padding-bottom: 20px;
+}
+
+.line {
+    height: 1px;
+    width: 100px;
+    background-color: whitesmoke;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 39px 39px 39px 0;
+    border-color: transparent whitesmoke transparent transparent;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 39px 0 39px 39px;
+    border-color: transparent transparent transparent whitesmoke;
+}
+
+h1 {
+    background-color: whitesmoke;
+    font-size: 2em;
+    padding: 10px;
+    font-family: 'Roboto', cursive;
+    text-transform: uppercase;
+}
+
+
+/* =========================
+   ====== ARTICLE LEFT =======
+   ========================= */
+
+.text {
+    width: 80%;
+    display: flex;
+}
+
+.text h3 {
+    font-size: 40px;
+    color: whitesmoke;
+    padding: 0px 0px 0px 0px;
+    background-color: #007c8d;
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.text p {
+    padding: 10px 10px 30px 55px;
+    font-size: 30px;
+/*
+    text-align: justify;
+*/
+    border-bottom: 1px solid #173943;
+    margin-bottom: 25px;
+    white-space: pre;
+}
+
+.text img {
+    width: 50%;
+/*
+    height: inherit;
+*/
+}
